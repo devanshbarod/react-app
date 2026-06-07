@@ -13,3 +13,15 @@ body{
 body{
     background-color: #111;
 }
+.card{
+    background-color: pink;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.nav{
+    margin: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}

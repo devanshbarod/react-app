@@ -1,18 +1,17 @@
 import React from 'react'
+import Card from './components/Card'
+import Navbar from './components/Navbar'
 
+       
 const App = () => {
-  return (
-    <>
-      
-      <div id='dad'>
-      <h1 id='child1'>Hello</h1>
-      <h2 id='child2'>Hello</h2>
-    </div>
-    <div id='chacha'>
 
-    </div>
-    
-    </>
+  return (
+      <div>
+        <Navbar />
+        <Card />
+        <Card />
+        
+      </div>
   )
 }
 
